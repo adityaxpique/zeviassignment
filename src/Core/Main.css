@@ -1,0 +1,57 @@
+.main-god {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(217, 217, 217);
+  color: white;
+  padding: 1rem;
+  height: 4rem;
+  width: 28rem;
+  margin: 25px;
+}
+.btnn {
+  margin: 5px;
+}
+.boldtext {
+  font-weight: 700;
+}
+.italictext {
+  font-style: italic;
+}
+.underlinetext {
+  text-decoration: underline;
+}
+.fstext {
+  font-size: 12px;
+}
+.colortext {
+  color: black;
+}
+@media screen and (max-width: 1100px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .card {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .card {
+    width: 75%;
+  }
+}
